@@ -1,0 +1,61 @@
+body {
+    width: 100%;
+    height:90%;
+    margin: 0 auto;
+    background-color: #E1EAF1;
+}
+
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.menu_inicial {
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+}
+
+.opcoes ul li{
+    display: inline-block;
+    margin-left: 10px;
+    float: left;
+}
+    
+.opcoes{
+    width: 55%;
+    float: right;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-60%);
+}
+.content{
+    margin: 0 auto;
+    width: 580px;
+    position: relative;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(89%);
+}
+.texto_inicio h1{
+    color: #0A1C33;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.texto_inicio p{
+    color: #0A1C33;
+    text-align: center;
+    font-size: 17px;
+}
+
+.texto_inicio{
+
+font-family:'Courier New', Courier, monospace;
+}
